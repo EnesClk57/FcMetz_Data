@@ -6,13 +6,30 @@ Centralisation et structuration des données football Ligue 1 à partir de trois
 
 ## Installation
 
+**Prérequis : Python 3.10 ou supérieur**
+
+Installer les dépendances :
+
 ```bash
 pip install requests pandas beautifulsoup4 duckdb
 ```
 
+| Bibliothèque | Rôle |
+|---|---|
+| `requests` | Appels HTTP vers les APIs StatsBomb et SkillCorner |
+| `pandas` | Manipulation des données sous forme de tableaux |
+| `beautifulsoup4` | Parsing HTML pour le scraping Transfermarkt |
+| `duckdb` | Base de données analytique locale |
+
 ## Configuration
 
-Ouvrir `config.py` et renseigner ses identifiants StatsBomb et SkillCorner.
+1. Copier le fichier template et le renommer :
+
+```bash
+cp config.example.py config.py
+```
+
+2. Ouvrir `config.py` et renseigner ses identifiants StatsBomb et SkillCorner.
 
 ---
 
