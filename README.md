@@ -23,7 +23,7 @@ pip install requests pandas beautifulsoup4 duckdb
 
 ## Configuration
 
-1. Copier le fichier template et le renommer :
+1. renommé  le fichier config.example.py en config.py  :
 
 ```bash
 cp config.example.py config.py
