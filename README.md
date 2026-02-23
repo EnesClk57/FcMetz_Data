@@ -6,6 +6,11 @@ Centralisation et structuration des données football Ligue 1 à partir de trois
 
 ## Installation
 
+**Cloner le projet**
+
+```bash
+https://github.com/EnesClk57/FcMetz_Data.git
+```
 **Prérequis : Python 3.10 ou supérieur**
 
 Installer les dépendances :
